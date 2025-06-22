@@ -89,10 +89,11 @@ Theano==1.0.4
 Theano-PyMC==1.1.0
 tokenizers==0.5.0
 # torch==1.10.0
-torch==2.1.2
+torch==2.0.1
 # torchaudio==0.10.0
-torchaudio==2.1.2
-torchvision==0.11.1
+torchaudio==2.0.2
+# torchvision==0.11.1
+torchvision==0.15.1
 tqdm==4.41.1
 transformers==2.5.0
 typing_extensions==4.7.1
