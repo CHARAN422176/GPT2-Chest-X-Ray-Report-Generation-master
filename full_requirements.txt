@@ -88,7 +88,8 @@ termcolor==1.1.0
 Theano==1.0.4
 Theano-PyMC==1.1.0
 tokenizers==0.5.0
-torch==1.10.0
+# torch==1.10.0
+torch==2.1.2
 torchaudio==0.10.0
 torchvision==0.11.1
 tqdm==4.41.1
