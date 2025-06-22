@@ -72,7 +72,8 @@ sacremoses==0.0.53
 # scikit-image==0.15.0
 scikit-image
 scikit-learn==0.22.1
-scipy==1.4.1
+# scipy==1.4.1
+scipy==1.10.1
 sentencepiece==0.1.99
 Shapely==1.7.1
 six==1.16.0
