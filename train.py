@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 from utility import get_optimizer, get_enqueuer
 import os
 import json
-print("tf done")
 from augmenter import augmenter
 from gpt2.gpt2_model import TFGPT2LMHeadModel
+print("tf done")
 from test import evaluate_enqueuer
 import pandas as pd
 from glob import glob
