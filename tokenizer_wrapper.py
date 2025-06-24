@@ -1,7 +1,8 @@
 import pandas as pd
 # from tensorflow.python.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.python.keras.preprocessing.sequence import pad_sequences
+# from tensorflow.python.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.python.keras.preprocessing.text import text_to_word_sequence
 import numpy as np
 from transformers import GPT2Tokenizer
