@@ -1,9 +1,8 @@
-print("Importing tensorflow...")
 import tensorflow as tf
-print("tf done")
 from CNN_encoder import CNN_Encoder
 from configs import argHandler
 import time
+print("tf done")
 from medical_w2v_wrapper import Medical_W2V_Wrapper
 from tokenizer_wrapper import TokenizerWrapper
 import matplotlib.pyplot as plt
