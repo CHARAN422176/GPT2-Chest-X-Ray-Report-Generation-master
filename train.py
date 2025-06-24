@@ -1,4 +1,6 @@
+print("Importing tensorflow...")
 import tensorflow as tf
+print("tf done")
 from CNN_encoder import CNN_Encoder
 from configs import argHandler
 import time
