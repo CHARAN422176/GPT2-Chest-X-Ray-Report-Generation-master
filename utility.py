@@ -7,7 +7,8 @@ from tensorflow.keras.models import model_from_json
 import efficientnet.tfkeras
 from tensorflow.keras.layers import Dense, Dropout, Flatten
 from generator import AugmentedImageSequence
-from tensorflow.keras.utils import OrderedEnqueuer
+# from tensorflow.keras.utils import OrderedEnqueuer
+from keras.utils.data_utils import OrderedEnqueuer
 
 def get_enqueuer(csv,batch_size, FLAGS, tokenizer_wrapper, augmenter=None):
     data_generator = AugmentedImageSequence(
