@@ -150,7 +150,7 @@ def get_overall_loss(enqueuer, steps, batch_losses_csv):
 
     return epoch_loss, batch_losses
 
-
+print("Starting training loop")
 train_generator = train_enqueuer.get()
 
 for epoch in range(start_epoch, FLAGS.num_epochs):
