@@ -41,7 +41,7 @@ netCDF4==1.6.4
 networkx>=2.8
 nlg-eval @ git+https://github.com/Maluuba/nlg-eval.git@7f7993035a2f4729a15d20040fd904933ea58767
 nltk==3.4.5
-numpy>=1.26.4
+numpy==1.23.5
 oauthlib==3.2.2
 opencv-python
 opencv-python-headless==4.11.0.86
