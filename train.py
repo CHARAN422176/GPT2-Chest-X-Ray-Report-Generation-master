@@ -2,13 +2,13 @@ import tensorflow as tf
 from CNN_encoder import CNN_Encoder
 from configs import argHandler
 import time
-print("tf done")
 from medical_w2v_wrapper import Medical_W2V_Wrapper
 from tokenizer_wrapper import TokenizerWrapper
 import matplotlib.pyplot as plt
 from utility import get_optimizer, get_enqueuer
 import os
 import json
+print("tf done")
 from augmenter import augmenter
 from gpt2.gpt2_model import TFGPT2LMHeadModel
 from test import evaluate_enqueuer
