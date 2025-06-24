@@ -17,8 +17,10 @@ import shutil
 
 # tf.keras.mixed_precision.experimental.set_policy('mixed_float16')
 
+print("Before FLAGS setup")
 FLAGS = argHandler()
 FLAGS.setDefaults()
+print("After FLAGS setup")
 tf.keras.backend.set_learning_phase(1)
 
 tokenizer_wrapper = TokenizerWrapper(FLAGS.all_data_csv, FLAGS.csv_label_columns[0],
