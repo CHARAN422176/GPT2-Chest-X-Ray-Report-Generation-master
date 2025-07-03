@@ -31,8 +31,8 @@ tqdm>=4.66.1
 urllib3>=2.0.4
 boto3>=1.28.0
 botocore>=1.31.0
-pymc3==3.11.5
-theano-pymc==1.1.2
+# pymc3==3.11.5
+# theano-pymc==1.1.2
 transformers>=4.40.0
 torch>=2.1.2
 torchaudio>=2.1.2
