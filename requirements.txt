@@ -38,4 +38,4 @@ torch>=2.1.2
 torchaudio>=2.1.2
 torchvision>=0.16.2
 # git+https://github.com/Maluuba/nlg-eval.git@master
-git+https://github.com/jekbradbury/nlg-eval.git
+# git+https://github.com/jekbradbury/nlg-eval.git
